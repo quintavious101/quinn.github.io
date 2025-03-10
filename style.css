@@ -9,6 +9,12 @@ body {
     min-height: 100vh; 
 }
 
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 main {
     flex: 1;
 }
