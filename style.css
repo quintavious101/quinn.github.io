@@ -2,12 +2,12 @@ body {
     font-family: Palatino Linotype, Georgia, serif;
     margin: 0;
     padding: 0;
-    background-color: #4f4f4f;
+    background-color: #9caf88;
     text-align: center;
 }
 
 header {
-    background-color: #333;
+    background-color: #9caf88;
     color: white;
     padding: 15px;
 }
