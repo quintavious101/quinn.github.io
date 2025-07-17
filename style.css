@@ -55,3 +55,41 @@ footer {
     padding: 10px;
 }
 
+/* filepath: /Users/quinncollins/Website/quinn.github.io/style.css */
+/* Style for Table of Contents */
+#table-of-contents {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Border around the TOC */
+    padding: 20px; /* Padding inside the TOC */
+    margin: 20px auto; /* Center the TOC with margin */
+    width: 80%; /* Set width to make it responsive */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+#table-of-contents h2 {
+    font-family: 'Arial', sans-serif; /* Font for the heading */
+    font-size: 1.5em; /* Larger font size for the heading */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+#table-of-contents ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+#table-of-contents li {
+    margin: 10px 0; /* Space between items */
+}
+
+#table-of-contents a {
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #007BFF; /* Blue color for links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#table-of-contents a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
