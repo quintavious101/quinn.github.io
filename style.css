@@ -10,7 +10,7 @@
 }
 
 #table-of-contents h2 {
-    font-family: 'Arial', sans-serif; /* Font for the heading */
+    font-family: Palatino Linotype, Georgia, serif; /* Font for the heading */
     font-size: 1.5em; /* Larger font size for the heading */
     color: #333; /* Dark text color */
     text-align: center; /* Center the heading */
