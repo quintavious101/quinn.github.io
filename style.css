@@ -49,9 +49,23 @@ body {
 }
 
 .gallery {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+    display: grid; /* Use CSS Grid for layout */
+    gap: 10px; /* Space between images */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+    margin: 20px auto; /* Center the gallery */
+    max-width: 1000px; /* Limit the gallery width */
+}
+
+.gallery img {
+    width: 100%; /* Make images fill their grid cells */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 main {
