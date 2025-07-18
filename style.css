@@ -98,23 +98,22 @@ header {
 }
 
 /* Navbar Styles */
-
 .navbar {
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
-nav ul {
+.nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+.nav li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth hover effect */
