@@ -31,9 +31,43 @@ main {
 }
 
 header {
-    background-color: #9caf88;
+    position: relative;
+    background-image: url('header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
     color: white;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+/* Semi-Transparent Overlay */
+header::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positions the overlay relative to the header */
+    top: 0;
+    left: 0;
+    width: 100%; /* Covers the entire width of the header */
+    height: 100%; /* Covers the entire height of the header */
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensures the overlay is above the background image */
+}
+
+/* Ensure Header Content is Above the Overlay */
+header * {
+    position: relative; /* Ensures content is above the overlay */
+    z-index: 2; /* Places content above the overlay */
+}
+
+/* Additional Header height stuff */
+@media (max-width: 600px) {
+    .navbar {
+        height: 150px; /* Reduce height for smaller screens */
+    }
 }
 
 /* Style for Table of Contents */
