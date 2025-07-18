@@ -113,13 +113,14 @@ header {
 
 .nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
     font-size: 1.2em;
+    font-weight: normal;
     transition: color 0.3s ease;
 }
 
