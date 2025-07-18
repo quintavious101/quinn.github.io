@@ -48,7 +48,7 @@ body {
     min-height: 100vh; 
 }
 
-.gallery {
+#gallery {
     display: grid; /* Use CSS Grid for layout */
     gap: 10px; /* Space between images */
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
@@ -56,7 +56,7 @@ body {
     max-width: 1000px; /* Limit the gallery width */
 }
 
-.gallery img {
+#gallery img {
     width: 100%; /* Make images fill their grid cells */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Rounded corners */
@@ -64,7 +64,7 @@ body {
     transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
-.gallery img:hover {
+#gallery img:hover {
     transform: scale(1.05); /* Slight zoom on hover */
 }
 
