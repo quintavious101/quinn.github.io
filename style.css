@@ -30,6 +30,7 @@ main {
     flex: 1;
 }
 
+/* Header Styles */
 header {
     position: relative;
     background-image: url('header.jpeg');
