@@ -18,6 +18,7 @@ body.dark-mode {
     margin: 0;
     padding: 0;
     background-color: #4d5544;
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
