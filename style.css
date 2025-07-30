@@ -76,8 +76,7 @@ h3 {
     font-size: 1em;
     margin: 0;
     padding: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-style: italic; /* Italicize the text */
+    font-style: italic;
 }
 
 /* Style for Table of Contents */
