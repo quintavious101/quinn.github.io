@@ -71,6 +71,15 @@ header * {
     }
 }
 
+h3 {
+    font-family: Palatino Linotype, Georgia, serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic; /* Italicize the text */
+}
+
 /* Style for Table of Contents */
 #table-of-contents {
     background-color: #f9f9f9; /* Light background for contrast */
