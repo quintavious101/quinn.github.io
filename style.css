@@ -113,6 +113,17 @@ h3 {
     margin: 20px auto; /* Center the TOC with margin */
     width: 80%; /* Set width to make it responsive */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    color: black;
+}
+
+#table-of-contents.dark-mode {
+    background-color: #080808; /* Dark background for contrast */
+    border: 1px solid #373737; /* Border around the TOC */
+    padding: 20px; /* Padding inside the TOC */
+    margin: 20px auto; /* Center the TOC with margin */
+    width: 80%; /* Set width to make it responsive */
+    box-shadow: 0 4px 6px rgba(239, 239, 239, 0.1); /* Add subtle shadow */
+    color: white;
 }
 
 #table-of-contents h2 {
