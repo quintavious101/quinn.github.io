@@ -32,7 +32,7 @@ section {
 }
 
 /* Dark Mode Styling */
-section.dark-mode {
+body.dark-mode section {
     margin: 20px;
     padding: 20px;
     background: black;
